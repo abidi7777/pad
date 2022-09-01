@@ -1,0 +1,1 @@
+var padLeft=function(t,d,n){for(;t.length<d;)t=n+t;return t},padRight=function(t,d,n){for(;t.length<d;)t+=n;return t};"undefined"!=typeof window&&(window.$padLeft=padLeft,window.$padRight=padRight);export{padLeft,padRight};

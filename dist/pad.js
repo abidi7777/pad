@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.padRight=exports.padLeft=void 0;var padLeft=function(t,e,d){for(;t.length<e;)t=d+t;return t},padRight=(exports.padLeft=padLeft,function(t,e,d){for(;t.length<e;)t+=d;return t});exports.padRight=padRight,"undefined"!=typeof window&&(window.$padLeft=padLeft,window.$padRight=padRight);
